@@ -103,7 +103,7 @@ Now, you have successfully created some TagViews. The following will show some m
 
 ## <span id="Methods">Methods</span>
 
-* Set a ```TagView.OnTagClickListener``` for TagView, for ```onTagClick``` and ```onTagLongClick``` callback
+* xml:tag_clickable="true", Set a ```TagView.OnTagClickListener``` for TagView, for ```onTagClick``` and ```onTagLongClick``` callback
 ```java
 mTagContainerLayout.setOnTagClickListener(new TagView.OnTagClickListener() {
 
